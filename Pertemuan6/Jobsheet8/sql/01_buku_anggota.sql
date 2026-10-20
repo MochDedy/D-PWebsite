@@ -19,4 +19,7 @@ CREATE TABLE IF NOT EXISTS anggota (
     no_anggota VARCHAR(50) NOT NULL UNIQUE,
     alamat VARCHAR(255),
     no_hp VARCHAR(30),
+    email VARCHAR(255),
+    tanggal_lahir TIMESTAMP,
+    jenis_kelamin CHAR(1)
 );
